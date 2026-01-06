@@ -29,12 +29,12 @@ int main() {
     long result_recursive = fib_recursive(n);
     end = clock();
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
-    printf("Execution time for fib(%d) (recursive): %f seconds\n", n, cpu_time_used);
+    printf("Execution time for fib(%d)=%ld (recursive): %f seconds\n", n, result_recursive, cpu_time_used);
 
     start = clock();
     long result_iterative = fib_iterative(n);
     end = clock();
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
-    printf("Execution time for fib(%d) (iterative): %f seconds\n", n, cpu_time_used);
+    printf("Execution time for fib(%d)=%ld (iterative): %f seconds\n", n, result_iterative, cpu_time_used);
     return 0;
 }

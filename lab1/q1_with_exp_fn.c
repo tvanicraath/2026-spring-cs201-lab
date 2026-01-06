@@ -6,7 +6,7 @@ void experiment(long (*fib_func)(int), char *label, int n) {
     long result = fib_func(n);
     clock_t end = clock();
     double cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
-    printf("Execution time for %s(%d): %f seconds\n", label, n, cpu_time_used);
+    printf("Execution time for %s(%d)=%ld: %f seconds\n", label, n, result, cpu_time_used);
 }
 
 long fib_recursive(int n) {
