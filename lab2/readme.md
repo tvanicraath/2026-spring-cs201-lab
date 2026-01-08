@@ -1,10 +1,10 @@
----
+<!-- ---
 title: CS201 Lab 2 
-# subtitle: Data Structures and Algorithms
+subtitle: Data Structures and Algorithms
 author: Shreya Agarwal & Rachit Nimavat
-# geometry: left=4cm,right=4cm,top=2cm,bottom=2cm # Adjust the page margins in pandoc
-# date: Spring 2026
----
+geometry: left=4cm,right=4cm,top=2cm,bottom=2cm # Adjust the page margins in pandoc
+date: Spring 2026
+--- -->
 
 In addition to the assignment shared with you on the Google Classroom, you are encouraged to perform the following.
 
