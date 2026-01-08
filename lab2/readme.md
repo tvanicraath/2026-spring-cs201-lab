@@ -2,7 +2,7 @@
 title: CS201 Lab 2 
 subtitle: Data Structures and Algorithms
 author: Shreya Agarwal & Rachit Nimavat
-geometry: left=4cm,right=4cm,top=2cm,bottom=2cm # Adjust the page margins in pandoc
+# geometry: left=4cm,right=4cm,top=2cm,bottom=2cm # Adjust the page margins in pandoc
 date: Spring 2026
 ---
 
@@ -126,4 +126,4 @@ Recompile your program using `make` and run it to ensure everything works as exp
 2. Understand how the dependencies work in the Makefile. Note that a large project has $100,000s$ of lines of code spread across $100s$ of files. 
 
 3. The `search` function returns $-1$ on an invalid index. Is this a good design choice? Can you think of a better way to handle errors in C? Hint:
-    - What does `strchr()` return? Type `man strchr` if the break after CS101 was too long :-).
+    - What does `strchr()` return? Type `man strchr` if the break after CS101 was too long! :-)
