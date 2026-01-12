@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: CS201 Lab 2 
 subtitle: Data Structures and Algorithms
 author: Shreya Agarwal & Rachit Nimavat
 geometry: left=4cm,right=4cm,top=2cm,bottom=2cm # Adjust the page margins in pandoc
 date: Spring 2026
---- -->
+---
 
 In addition to the assignment shared with you on the Google Classroom, you are encouraged to perform the following.
 
@@ -110,6 +110,7 @@ Add a new feature to your `IntVector` implementation: a function `int search(Int
 If the value is not found, return `-1`.
 Where should you put the new prototype and implementation? 
 Update these files and test the new function in `main.c` by retrieving and printing some elements.
+Also, modify your `free_data()` function to revert the vector to an empty state (size `0` and capacity `1`) instead of freeing the memory.
 Recompile your program using `make` and run it to ensure everything works as expected.
 
 ## Common Errors
