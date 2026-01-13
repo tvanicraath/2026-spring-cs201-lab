@@ -35,7 +35,7 @@ With this new function, we can solve the famous **Josephus Problem**.
 Gabbar Singh's $N$ dacoits have failed a raid. 
 Being a jovial fellow, he decides [to play a game](https://www.youtube.com/watch?v=TVaf8V-hQ5k) instead of shooting them all at once.
 He makes them stand in a circle, numbered $1$ to $N$.
-He starts counting from person $\#1$. He skips $k-1$ people and shoots the $k$-th person. The circle closes up (the body is removed), and he starts counting again from the person immediately next to the victim.
+He starts counting from person $1$. He skips $k-1$ people and shoots the $k$-th person. The circle closes up (the body is removed), and he starts counting again from the person immediately next to the victim.
 This continues until everyone is eliminated.
 To savor the fear, Gabbar asks you, Sambha, to compute the order in which the dacoits will be eliminated.
 
