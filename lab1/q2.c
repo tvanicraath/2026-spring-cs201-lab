@@ -30,7 +30,7 @@ void append(IntVector *v, int value) {
     v->data[v->size++] = value;
 }
 
-void free_vector(IntVector *v) {
+void free_data(IntVector *v) {
     // v *should not be used* after this call
     // Free allocated memory. HW: handle NULL pointer case
     free(v->data);
@@ -39,6 +39,6 @@ void free_vector(IntVector *v) {
 int main(){
     IntVector v = create_vector(1);
     for(int i = 0; i < 50; i++) append(&v, i);
-    free_vector(&v);
+    free_data(&v);
     return 0;
 }
