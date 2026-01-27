@@ -1,15 +1,20 @@
 #ifndef VECTOR_H // This is called an include guard. Pretend this is a syntax, you will learn about it later.
 #define VECTOR_H // Start of the guard
 
+typedef struct Node {
+    int data;
+    struct Node* next;
+} Node;
+
 typedef struct {
-    int *data;
+    Node* head;
     int size;
-    int capacity;
 } IntVector;
 
-IntVector create_vector(int capacity);
+IntVector create_vector();
 void append(IntVector *v, int value);
 void free_data(IntVector *v);
-int search(IntVector *v, int val);
+Node* search_by_index(IntVector *v, int index);
 void pop_index(IntVector *v, int index);
+void print_vector(char* msg, IntVector *v);
 #endif // End of the guard
