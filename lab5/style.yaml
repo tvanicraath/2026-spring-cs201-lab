@@ -1,0 +1,22 @@
+# style.yaml
+
+metadata:
+  title: "CS201 Lab 5"
+  subtitle: "Data Structures and Algorithms"
+  author:
+    - Shreya Agarwal
+    - Rachit Nimavat
+  date: "Spring 2026"
+
+variables:
+  mainfont: "Fira Sans"
+  monofont: "Fira Code"
+  geometry:
+    - top=2cm
+    - bottom=2cm
+    - left=4cm
+    - right=4cm
+  urlcolor: blue
+  header-includes:
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
